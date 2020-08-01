@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient( to right bottom, rgba(119, 100, 205, 80%), rgba(0, 0, 0, 80%)), url("../img/header.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+}
+
+.information {
+    height: 95vh;
+    background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 90%), rgba(68, 129, 137, 90%)), url("../img/information-section.jpg");
+    background-size: cover;
+    background-position: top;
+    margin-top: 30px;
+    position: relative;
+    padding: 30px;
+}
+
+.information-text {
+    width: 50%;
+    margin-right: 20px;
+    position: absolute;
+    top: 40%;
+}
+
+.information-text p {
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    font-size: 15px;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.information-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.information-video {
+    width: 100px;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+}
+
+.information-text video {
+    width: 100px;
+}
+
+.playlist {
+    height: 50vh;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.table thead {
+    background: black;
+    color: white;
+}
