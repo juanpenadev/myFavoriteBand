@@ -126,13 +126,13 @@ h2 {
     text-align: center;
 }
 
-.table {
+table {
     width: 100%;
     text-align: center;
     font-size: 30px;
 }
 
-.table thead {
+table thead {
     background: black;
     color: white;
 }
